@@ -1,0 +1,28 @@
+@import-normalize;
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import "recipe-list.css";
+@import "recipe.css";
+@import "ingredient-list.css";
+@import "buttons.css";
+@import "recipe-edit.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, #b8e994, #1289a7);
+}
+
+html {
+  font-size: 20px;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
